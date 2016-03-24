@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LCA.cpp">
+    <ClCompile Include="Number of 1 Bits.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F59E39C6-BDB9-43ED-9894-BF436356EDC9}</ProjectGuid>
+    <ProjectGuid>{7D110BB3-B62D-4B48-ABB2-0BD1F264652B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LowestCommonAncestorofaBinarySearchTree</RootNamespace>
+    <RootNamespace>Numberof1Bits</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LCA.cpp" />
+    <ClCompile Include="Number of 1 Bits.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
