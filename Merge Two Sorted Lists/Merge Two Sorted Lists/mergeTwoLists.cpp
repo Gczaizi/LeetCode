@@ -9,7 +9,7 @@ struct ListNode
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
-/*ListNode* mergeTwoList(ListNode* l1, ListNode* l2)
+/*ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 {
 	if (l1 == NULL)
 		return l2;
@@ -27,7 +27,7 @@ struct ListNode
 	}
 }
 */
-ListNode* mergeTwoList(ListNode* l1, ListNode* l2)
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 {
 	ListNode *head = NULL;
 	if (l1 == NULL)
@@ -78,7 +78,7 @@ int main()
 	p3->next = p5;
 	p4->next = NULL;
 	p5->next = NULL;
-	p5 = mergeTwoList(p1, p2);
+	p5 = mergeTwoLists(p1, p2);
 	while (p5)
 	{
 		cout << p5->val << endl;
